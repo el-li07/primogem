@@ -9,7 +9,6 @@ keys/
 *.swo
 .DS_Store
 Thumbs.db
-.env
 .pytest_cache/
 *.egg-info/
 dist/
