@@ -4,6 +4,7 @@ keys/
 *.pyc
 *.pyo
 .vscode/
+.vs/
 .idea/
 *.swp
 *.swo
