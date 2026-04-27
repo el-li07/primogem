@@ -138,7 +138,10 @@ def run_server(args):
     print("Запускаем сервер...")
     import subprocess
     try:
-        subprocess.run(["uvicorn", "primogem.auth_server:app", "--reload"], check=True)
+        subprocess.run(
+            [sys.executable, "-m", "uvicorn", "primogem.auth_server:app", "--reload"],
+            check=True,
+        )
     except KeyboardInterrupt:
         print("\nСервер остановлен.")
     except Exception as e:
